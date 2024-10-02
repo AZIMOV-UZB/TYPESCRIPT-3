@@ -1,17 +1,17 @@
-import { FC, } from 'react';
+import { FC,} from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header: FC = () => {
 
 
     return (
-        <div className='container'> 
-            <nav className="bg-gray-800 p-4">
+        <div className=''> 
+            <nav className="bg-slate-400 p-4">
                 <div className="container mx-auto flex justify-between items-center">
                     <div className="text-white text-2xl font-bold">
-                        Logo
+           <NavLink to={"/"}>LOGO</NavLink> 
                     </div>
                     <ul className={`md:flex space-x-8 text-white hidden `}>
-                        <li><a href="#home" className="hover:text-gray-300">Home</a></li>
                         <li><a href="#about" className="hover:text-gray-300">About</a></li>
                         <li><a href="#services" className="hover:text-gray-300">Services</a></li>
                         <li><a href="#contact" className="hover:text-gray-300">Contact</a></li>

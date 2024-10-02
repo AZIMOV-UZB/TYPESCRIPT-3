@@ -26,13 +26,20 @@ const Detail: FC = () => {
     if (!product) return <div>Loading</div>;
 
     return (
-        <div className="container  bg-gray-800 text-white">
-            <div className="max-w-3xl mx-auto">
-                <img className="w-full h-[300px] object-cover mb-4" src={product.images[0]} alt={product.title} />
+        <div className=' bg-slate-200'>
+        <div className="container  text-black flex flex-wrap justify-between
+        ">
+                <div className=''> 
+                    <img className=" h-[400px] w-[320] object-cover " src={product.images[0]} alt={product.title} />
+               </div>
+            <div className='w-[400px]'>
                 <h2 className="text-3xl font-bold mb-2">{product.title}</h2>
                 <p className="text-xl mb-4">Price: {product.price} $</p>
                 <p className="mb-6">{product.description}</p>
-            </div>
+                <p >{product.description}</p>
+                </div>
+       
+                </div>
         </div>
     );
 };
