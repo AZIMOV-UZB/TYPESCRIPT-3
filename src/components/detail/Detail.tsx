@@ -30,10 +30,10 @@ const Detail: FC = () => {
         <div className="container  text-black flex flex-wrap justify-between
         ">
                 <div className=''> 
-                    <img className=" h-[400px] w-[320] object-cover " src={product.images[0]} alt={product.title} />
+                    <img className=" h-[350px] w-[340] object-cover " src={product.images[0]} alt={product.title} />
                </div>
-            <div className='w-[400px]'>
-                <h2 className="text-3xl font-bold mb-2">{product.title}</h2>
+            <div className='w-[450px] py-6'>
+                <h2 className="text-3xl font-bold mb-2 mt-8">{product.title}</h2>
                 <p className="text-xl mb-4">Price: {product.price} $</p>
                 <p className="mb-6">{product.description}</p>
                 <p >{product.description}</p>

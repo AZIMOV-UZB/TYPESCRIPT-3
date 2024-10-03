@@ -16,7 +16,7 @@ const Footer = () => {
 <div className='footer__wrapper flex'>
 
 <div className='footer__card'>
-<p className='footer__text mt-6 aaddfont-medium	 footer__text w-64'>Awesome grocery store website
+<p className='footer__text mt-6 	 footer__text w-64'>Awesome grocery store website
 template</p>
 <div className='flex gap-3 mt-6'>
 <RiMapPin2Line className='text-green-300 text-2xl'/>
@@ -41,7 +41,7 @@ template</p>
 
 
 <div className='footer__card'>
-    <p className='mt-6'>Company</p>
+    <p className='footer__title font-bold text-2xl mt-6'>Company</p>
     <p className='footer__text font-medium mt-6'>About Us</p>
     <p className='footer__text  font-medium	 mt-6'>Delivery Information</p>
     <p className='footer__text  font-medium	 mt-6'>Privacy Policy</p>
